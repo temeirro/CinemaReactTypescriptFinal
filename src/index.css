@@ -1,0 +1,55 @@
+.homeDiv{
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Login{
+  width: 60%;
+  margin: auto;
+}
+
+.Login form{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+img{
+  transition: all 1s;
+}
+img:hover{
+  transform: scale(1.05);
+}
+
+.movieList{
+  margin: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.movie-card {
+  margin-top: 50px;
+  box-shadow: 5px 5px 2px 1px rgba(195, 0, 255, 0.2);
+  transition: all .5s;
+  color: black;
+  margin: 10px;
+}
+
+.movie-card:hover {
+  transform: scale(1.05); 
+}
